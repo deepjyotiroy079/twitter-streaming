@@ -5,6 +5,8 @@
 
 ## Prerequisites
 
+Make sure you have Spark set up on your local machine.
+
 Creata a virtual environment
 
 ```bash

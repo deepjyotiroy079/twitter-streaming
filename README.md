@@ -5,8 +5,30 @@
 
 ## Prerequisites
 
+Creata a virtual environment
+
+```bash
+python -m venv myvenv
+```
+
+Install dependencies
+
 ```bash
 pip install python-dotenv tweepy
+```
+
+## Execution
+
+1. Open a terminal and run the ```main.py```
+
+```bash
+python main.py
+```
+
+2. Open up another terminal and submit ```StreamTweets2.py``` to spark-submit on ```127.0.0.1``` and port ```9999```.
+
+```cmd
+%SPARK_HOME%\bin\spark-submit <path to the StreamTweets2.py file> 127.0.0.1 9999
 ```
 
 ## Result
